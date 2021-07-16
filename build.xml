@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Build manifest
+
+Creates a work-directory where the builds will take place
+-->
+<manifest>
+    <project
+        path="rpi/meta-rpi"
+        remote="github"
+        name="jumpnow/meta-rpi"
+    />
+</manifest>
+

@@ -13,4 +13,6 @@
     />
 
     <include name="meta_base.xml" />
+    <include name="meta_prod.xml" />
+    <include name="build.xml" />
 </manifest>

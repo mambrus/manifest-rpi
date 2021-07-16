@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Product layers:
+These layers contain productification, i.e. make-up of product
+-->
+<manifest>
+    <!---
+    Authors of https://jumpnowtek.com/rpi/Raspberry-Pi-Systems-with-Yocto.html
+    -->
+    <project
+        path="poky-dunfell/meta-jumpnow"
+        remote="github"
+        name="jumpnow/meta-jumpnow"
+    />
+</manifest>
+
