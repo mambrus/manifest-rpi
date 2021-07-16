@@ -11,5 +11,15 @@
         remote="yocto"
         name="meta-security.git"
     />
+    <project
+        path="poky-dunfell/meta-openembedded"
+        remote="oe"
+        name="meta-openembedded.git"
+    />
+    <project
+        path="poky-dunfell/meta-qt5"
+        remote="github"
+        name="meta-qt5/meta-qt5.git"
+    />
 </manifest>
 
