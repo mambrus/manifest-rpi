@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="remotes.xml" />
+
+    <default revision="dunfell"
+             remote="yocto"
+             sync-j="1" />
+
+    <project
+        path="poky-dunfell"
+        remote="yocto"
+        name="poky.git"
+    />
+
+    <include name="meta_base.xml" />
+</manifest>

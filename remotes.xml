@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="yocto"
+            alias="origin"
+            fetch="https://git.yoctoproject.org/git/"
+            review="https://review.gerrithub.io"
+    />
+    <remote name="oe"
+            alias="origin"
+            fetch="https://git.openembedded.org"
+            review="https://review.gerrithub.io"
+    />
+    <remote name="github"
+            alias="origin"
+            fetch="https://github.com"
+            review="https://review.gerrithub.io"
+    />
+</manifest>

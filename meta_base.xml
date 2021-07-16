@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Base layers -->
+<manifest>
+    <project
+        path="poky-dunfell/meta-raspberrypi"
+        remote="yocto"
+        name="meta-raspberrypi.git"
+    />
+    <project
+        path="poky-dunfell/meta-security"
+        remote="yocto"
+        name="meta-security.git"
+    />
+</manifest>
+
