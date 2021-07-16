@@ -4,12 +4,12 @@
 
     <default revision="dunfell"
              remote="yocto"
-             sync-j="1" />
+             sync-j="4" />
 
     <project
         path="poky-dunfell"
         remote="yocto"
-        name="poky.git"
+        name="poky"
     />
 
     <include name="meta_base.xml" />

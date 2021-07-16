@@ -4,22 +4,22 @@
     <project
         path="poky-dunfell/meta-raspberrypi"
         remote="yocto"
-        name="meta-raspberrypi.git"
+        name="meta-raspberrypi"
     />
     <project
         path="poky-dunfell/meta-security"
         remote="yocto"
-        name="meta-security.git"
+        name="meta-security"
     />
     <project
         path="poky-dunfell/meta-openembedded"
         remote="oe"
-        name="meta-openembedded.git"
+        name="meta-openembedded"
     />
     <project
         path="poky-dunfell/meta-qt5"
         remote="github"
-        name="meta-qt5/meta-qt5.git"
+        name="meta-qt5/meta-qt5"
     />
 </manifest>
 
