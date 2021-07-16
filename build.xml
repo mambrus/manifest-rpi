@@ -9,6 +9,17 @@ Creates a work-directory where the builds will take place
         path="rpi/meta-rpi"
         remote="github"
         name="jumpnow/meta-rpi"
-    />
+        >
+
+        <copyfile
+            src="conf/local.conf.sample"
+            dest="rpi/build/conf/local.conf"
+        />
+        <copyfile
+            src="conf/bblayers.conf.sample"
+            dest="rpi/build/conf/bblayers.conf"
+        />
+    </project>
+
 </manifest>
 
