@@ -8,16 +8,20 @@ Creates a work-directory where the builds will take place
     <project
         path="rpi/meta-rpi"
         remote="github"
-        name="jumpnow/meta-rpi"
+        name="mambrus/meta-rpi.git"
         >
 
-        <copyfile
+        <linkfile
             src="conf/local.conf.sample"
             dest="rpi/build/conf/local.conf"
         />
-        <copyfile
+        <linkfile
             src="conf/bblayers.conf.sample"
             dest="rpi/build/conf/bblayers.conf"
+        />
+        <linkfile
+            src=".env.sample"
+            dest=".env"
         />
     </project>
 
