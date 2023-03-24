@@ -2,7 +2,7 @@
 <manifest>
     <remote name="yocto"
             alias="origin"
-            fetch="https://git.yoctoproject.org/git/"
+            fetch="https://git.yoctoproject.org"
             review="https://review.gerrithub.io"
     />
     <remote name="oe"
