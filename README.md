@@ -12,6 +12,8 @@ to set up a layered structure for Yocto/OE based builds of rPI
 mkdir poky-pi && cd poky-pi
 repo init -u https://github.com/mambrus/manifest-rpi.git
 repo sync -j6
+source $(pwd)/.env
+time bitbake core-image-base
 ```
 
 The above will fetch the `default.xml` manifest. To chose another, append
