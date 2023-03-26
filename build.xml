@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Build manifest
+Build & meta-rpi manifest
 
-Creates a work-directory where the builds will take place
+Creates a work-directory where the builds will take place togeather with the
+last layer meta-pi (see conf/bblayers.conf)
+
 -->
 <manifest>
     <project
         path="rpi/meta-rpi"
         remote="github"
         name="mambrus/meta-rpi.git"
+        review="https://review.gerrithub.io/a/mambrus/meta-rpi"
         >
 
         <linkfile
