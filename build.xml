@@ -12,6 +12,7 @@ last layer meta-pi (see conf/bblayers.conf)
         remote="github"
         name="mambrus/meta-rpi.git"
         review="https://review.gerrithub.io/a/mambrus/meta-rpi"
+        revision="dunfell_rpi2"
         >
 
         <linkfile
